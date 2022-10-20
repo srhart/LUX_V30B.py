@@ -3,7 +3,7 @@ Micropython library for the DFRobot LUX V30B i2c
 
 example:
 
-''
+```python
 from machine import I2C, Pin
 import luxv30b
 
@@ -16,4 +16,4 @@ sensor.check(i2c)
 print(bin(sensor.get_conf()[0])[2:])
 
 print(sensor.get_lux())
-''
+```
