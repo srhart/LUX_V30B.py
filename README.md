@@ -16,3 +16,7 @@ print(bin(sensor.get_conf()[0])[2:])
 
 print(sensor.get_lux())
 ```
+
+## TODO
+
+- Add logic to write config
